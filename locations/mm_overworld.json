@@ -4964,6 +4964,30 @@
             ]
           },
           {
+            "name": "Road to Ikana Pillar",
+            "sections": [
+              {
+                "name": "Pot on Top of Pillar",
+                "access_rules": [
+                  "$mm|Road to Ikana Pot"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 681,
+                "y": 297
+              }
+            ]
+          },
+          {
             "name": "Captain Keeta's Hat Chest",
             "chest_unopened_img": "images/system/chest_unopened_big.png",
             "chest_opened_img": "images/system/chest_open_big.png",
@@ -5026,11 +5050,35 @@
             "short_name": "Graves Night 1",
             "sections": [
               {
+                "name": "Grave Early Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Night 1 Early 1"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 2
+              },
+              {
                 "name": "Defeat all bats",
                 "access_rules": [
                   "$mm|Beneath The Graveyard Chest"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Grave Bat Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Night 1 Bats 1"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 3
               },
               {
                 "name": "Defeat Iron Knuckle",
@@ -5057,6 +5105,42 @@
             "short_name": "Graves Night 2",
             "sections": [
               {
+                "name": "Grave Early Pot",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Night 2 Early"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 1
+              },
+              {
+                "name": "Grave before Pit Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Night 2 Before Pit 1"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 2
+              },
+              {
+                "name": "Grave after Pit Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Night 2 After Pit 1"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 4
+              },
+              {
                 "name": "Defeat Iron Knuckle",
                 "access_rules": [
                   "$mm|Beneath The Graveyard HP"
@@ -5079,12 +5163,36 @@
             "short_name": "Graves Night 3",
             "sections": [
               {
+                "name": "Grave Entrance Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Dampe 01"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 6
+              },              
+              {
                 "name": "Defeat Big Poe",
                 "access_rules": [
                   "$mm|Beneath The Graveyard Dampe Chest",
                   "{$hintable}"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Grave Exit Pots",
+                "access_rules": [
+                  "$mm|Beneath The Graveyard Pot Dampe 07"
+                ],
+                "visibility_rules": [
+                  "setting_shufflePotsMm_true"
+                ],
+                "chest_unopened_img": "images/pot.png",
+                "chest_opened_img": "images/pot_grey.png",
+                "item_count": 4
               }
             ],
             "map_locations": [
@@ -5469,6 +5577,42 @@
                     "name": "Stone Tower",
                     "children": [
                       {
+                        "name": "Climb Pots",
+                        "access_rules": [
+                          "$mm|Stone Tower Pot Climb 1"
+                        ],
+                        "visibility_rules": [
+                          "setting_shufflePotsMm_true"
+                        ],
+                        "chest_unopened_img": "images/pot.png",
+                        "chest_opened_img": "images/pot_grey.png",
+                        "item_count": 2
+                      },                      
+                      {
+                        "name": "Lower Scarecrow Pots",
+                        "access_rules": [
+                          "$mm|Stone Tower Pot Lower Scarecrow 01"
+                        ],
+                        "visibility_rules": [
+                          "setting_shufflePotsMm_true"
+                        ],
+                        "chest_unopened_img": "images/pot.png",
+                        "chest_opened_img": "images/pot_grey.png",
+                        "item_count": 12
+                      },
+                      {
+                        "name": "Upper Scarecrow Pots",
+                        "access_rules": [
+                          "$mm|Stone Tower Pot Higher Scarecrow 1"
+                        ],
+                        "visibility_rules": [
+                          "setting_shufflePotsMm_true"
+                        ],
+                        "chest_unopened_img": "images/pot.png",
+                        "chest_opened_img": "images/pot_grey.png",
+                        "item_count": 9
+                      },
+                      {
                         "name": "Inverted Stone Tower Chests",
                         "chest_unopened_img": "images/system/chest_brown_closed.png",
                         "chest_opened_img": "images/system/chest_brown_open.png",
@@ -5480,6 +5624,18 @@
                               "$mm|Stone Tower Inverted Chest 1"
                             ],
                             "item_count": 3
+                          },
+                          {
+                            "name": "Inverted Stone Tower Pots",
+                            "access_rules": [
+                              "$mm|Stone Tower Inverted Pot 1"
+                            ],
+                            "visibility_rules": [
+                              "setting_shufflePotsMm_true"
+                            ],
+                            "chest_unopened_img": "images/pot.png",
+                            "chest_opened_img": "images/pot_grey.png",
+                            "item_count": 5
                           }
                         ],
                         "map_locations": [
@@ -5502,6 +5658,18 @@
                             "chest_unopened_img": "images/deactivated_owl_statue.png",
                             "chest_opened_img": "images/activated_owl_statue.png",
                             "item_count": 1
+                          },
+                          {
+                            "name": "Stone Tower Owl Pots",
+                            "access_rules": [
+                              "$mm|Stone Tower Pot Owl Statue 1"
+                            ],
+                            "visibility_rules": [
+                              "setting_shufflePotsMm_true"
+                            ],
+                            "chest_unopened_img": "images/pot.png",
+                            "chest_opened_img": "images/pot_grey.png",
+                            "item_count": 4
                           }
                         ],
                         "map_locations": [
