@@ -2343,6 +2343,18 @@
     "chest_opened_img": "images/system/chest_brown_open.png",
     "sections": [
       {
+        "name": "Entrance Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Entrance 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Bridge Room Ledge Bubble",
         "short_name": "Bridge Room Bubble",
         "chest_unopened_img": "images/system/mm_snowhead_stray_fairy.png",
@@ -2369,6 +2381,18 @@
         "item_count": 1
       },
       {
+        "name": "Bridge Room Front Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Bridge Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 5
+      },
+      {
         "name": "Chest Past Bridge Room - Map",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2377,6 +2401,18 @@
           "$mm|Snowhead Temple Map"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Bridge Room Back Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Bridge Room After 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Map Room Ground Fairy",
@@ -2402,6 +2438,18 @@
         "item_count": 1
       },
       {
+        "name": "Double Block Room Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Block Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Near Cracked Wall - Compass",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2410,6 +2458,18 @@
           "$mm|Snowhead Temple Compass"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Compass Room Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Compass Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 5
       },
       {
         "name": "Icicle Room Snowball - Small Key",
@@ -2448,6 +2508,18 @@
         "item_count": 1
       },
       {
+        "name": "Fake Ceiling Room Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Dual Switches 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Wizrobe Mini Boss - Fire Arrow",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2484,6 +2556,18 @@
         "item_count": 1
       },
       {
+        "name": "Basement Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Central Room Bottom 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Pillar Freezards",
         "short_name": "Kill Freezards in Pillar Room",
         "chest_unopened_img": "images/system/mm_snowhead_stray_fairy.png",
@@ -2495,6 +2579,30 @@
           "setting_strayFairyChestShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Pillars Upper Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Pillars Room Upper 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 6
+      },
+      {
+        "name": "Pillars Lower Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Pillars Room Lower 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 7
       },
       {
         "name": "Crate Fairy",
@@ -2536,6 +2644,18 @@
         "item_count": 1
       },
       {
+        "name": "Double Block Upper Flying Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Flying Pot 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Kill Freezards in Bridge Room - Small Key",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2544,6 +2664,30 @@
           "$mm|Snowhead Temple Bridge Room"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Central Room Scarecrow Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Central Room Scarecrow 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Central Room Level 2 Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Central Room Level 2 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Map Room Ledge Chest",
@@ -2595,6 +2739,30 @@
         "item_count": 1
       },
       {
+        "name": "Wizzrobe Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Wizzrobe 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 5
+      },
+      {
+        "name": "Central Room near Boss Key Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Pot Central Room Near Boss Key 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Main Room Fake Wall",
         "short_name": "Main Room Fake Wall",
         "chest_unopened_img": "images/system/mm_snowhead_stray_fairy.png",
@@ -2606,6 +2774,30 @@
           "setting_strayFairyChestShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Boss Room Early Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Boss Pot Early 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Boss Room Later Pots",
+        "access_rules": [
+          "$mm|Snowhead Temple Boss Pot 01"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 10
       },
       {
         "name": "Goht",
