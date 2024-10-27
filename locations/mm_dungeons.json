@@ -1300,6 +1300,18 @@
         "item_count": 2
       },
       {
+        "name": "Entrance Pot",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Entrance"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 1
+      },
+      {
         "name": "Pots in Main Room",
         "short_name": "Main Room Pots",
         "chest_unopened_img": "images/system/mm_woodfall_stray_fairy.png",
@@ -1324,6 +1336,18 @@
           "setting_strayFairyOtherShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Main Room Lower Pots",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Main Room Lower 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 6
       },
       {
         "name": "Main Room Grass",
@@ -1360,6 +1384,18 @@
           "setting_strayFairyOtherShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Platform Room Pots",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Water Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Fight Turtles - Map",
@@ -1422,6 +1458,18 @@
           "setting_strayFairyOtherShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Bridge Room Pots",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Maze 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Water Room Grass",
@@ -1512,6 +1560,18 @@
         "item_count": 1
       },
       {
+        "name": "Main Room Upper Pots",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Main Room Upper 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Dinolfos Mini Boss - Hero's Bow",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -1520,6 +1580,18 @@
           "$mm|Woodfall Temple Bow"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Miniboss Room Pots",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Miniboss Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Boss Key Chest",
@@ -1602,6 +1674,18 @@
           "setting_strayFairyOtherShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Pots Before Boss",
+        "access_rules": [
+          "$mm|Woodfall Temple Pot Pre-Boss 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Boss Room Grass",
