@@ -1129,7 +1129,19 @@
         "item_count": 2
       },
       {
-        "name": "Beneath the Well Cow",
+        "name": "Left Side Pots",
+        "access_rules": [
+          "$mm|Beneath The Well Pot Left Side 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 5
+      },
+      {
+        "name": "Cow",
         "chest_unopened_img": "images/system/cow.png",
         "chest_opened_img": "images/system/milk.png",
         "access_rules": [
@@ -1141,7 +1153,7 @@
         "item_count": 1
       },
       {
-        "name": "Beneath the Well Cow Grass",
+        "name": "Cow Grass",
         "short_name": "Cow",
         "chest_unopened_img": "images/MM_Grass.png",
         "chest_opened_img": "images/GrassGreyscale.png",
@@ -1154,7 +1166,7 @@
         "item_count": 3
       },
       {
-        "name": "Beneath the Well Before Poe Grass",
+        "name": "Before Poe Grass",
         "short_name": "Before Poe",
         "chest_unopened_img": "images/MM_Grass.png",
         "chest_opened_img": "images/GrassGreyscale.png",
@@ -1167,7 +1179,31 @@
         "item_count": 4
       },
       {
-        "name": "Beneath the Well Fairy Fountain",
+        "name": "Big Poe Pots",
+        "access_rules": [
+          "$mm|Beneath The Well Pot Big Poe 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Middle Pots in a Row",
+        "access_rules": [
+          "$mm|Beneath The Well Pot Middle 01"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 10
+      },
+      {
+        "name": "Fairy Fountain",
         "chest_unopened_img": "images/Fairy.png",
         "chest_opened_img": "images/FairyGreyscale.png",
         "access_rules": [
@@ -1179,7 +1215,7 @@
         "item_count": 8
       },
       {
-        "name": "Beneath the Well Near End Grass",
+        "name": "Near End Grass",
         "short_name": "Near End",
         "chest_unopened_img": "images/MM_Grass.png",
         "chest_opened_img": "images/GrassGreyscale.png",
