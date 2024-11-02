@@ -1255,6 +1255,90 @@
         "item_count": 12
       },
       {
+        "name": "Outside Entrance Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Exterior"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "Entrance Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Entrance 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Left First Room Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Left First Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Left Second Room Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Left Second Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Left Third Room Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Left Third Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Right Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Pot Right 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Pre-Boss Room Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Boss Pot 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
         "name": "Defeat Igos Du Ikana",
         "chest_unopened_img": "images/system/unknownsong.png",
         "chest_opened_img": "images/system/unknownsong_check.png",
@@ -1263,6 +1347,18 @@
           "{$hintable}"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Boss Room Pots",
+        "access_rules": [
+          "$mm|Ancient Castle of Ikana Boss Pot 5"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Castle PoH",
