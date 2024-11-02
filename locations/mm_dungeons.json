@@ -926,6 +926,42 @@
         "item_count": 1
       },
       {
+        "name": "PF Heart Piece Room Pots",
+        "access_rules": [
+          "$mm|Pirate Fortress Sewers Pot Heart Piece Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "PF Sewers Waterway Pots (right)",
+        "access_rules": [
+          "$mm|Pirate Fortress Sewers Pot Waterway 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "PF Sewers Pots near End",
+        "access_rules": [
+          "$mm|Pirate Fortress Sewers Pot End 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
         "name": "Lower Chest",
         "access_rules": [
           "$mm|Pirate Fortress Interior Lower Chest"
@@ -938,6 +974,18 @@
           "$mm|Pirate Fortress Interior Upper Chest"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Shoot the Beehive Room Pots",
+        "access_rules": [
+          "$mm|Pirate Fortress Interior Pot Beehive 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Hookshot Chest",
@@ -956,6 +1004,18 @@
         "hosted_item": "EVENT_MM_ZORA_EGGS_HOOKSHOT_ROOM"
       },
       {
+        "name": "Barrel Maze Pots",
+        "access_rules": [
+          "$mm|Pirate Fortress Interior Pot Barrel Maze 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
         "name": "Zora Egg 2",
         "access_rules": [
           "$mm_event_raw|ZORA_EGGS_BARREL_MAZE"
@@ -968,6 +1028,18 @@
           "$mm|Pirate Fortress Interior Aquarium"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Aquarium Chest Room Pots",
+        "access_rules": [
+          "$mm|Pirate Fortress Interior Pot Chest Aquarium 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
       },
       {
         "name": "Zora Egg 3",
@@ -984,6 +1056,18 @@
           "$mm|Pirate Fortress Interior Silver Rupee Chest"
         ],
         "item_count": 1
+      },
+      {
+        "name": "After Well Guarded Chest Pots",
+        "access_rules": [
+          "$mm|Pirate Fortress Interior Pot Guarded 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Zora Egg 4",
@@ -1780,6 +1864,30 @@
       },
       {
         "name": "Main Room Underwater Pot",
+        "access_rules": [
+          "$mm|Great Bay Temple SF Central Room Underwater Pot"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "Main Room Surface Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Central Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Main Room Underwater Pot",
         "short_name": "Pot in Center",
         "chest_unopened_img": "images/system/mm_greatbay_stray_fairy.png",
         "chest_opened_img": "images/system/mm_stray_fairy.png",
@@ -1802,7 +1910,7 @@
         "item_count": 1
       },
       {
-        "name": "Map Room Pot",
+        "name": "Map Room SF Pot",
         "short_name": "Pot in Ledge Room",
         "chest_unopened_img": "images/system/mm_greatbay_stray_fairy.png",
         "chest_opened_img": "images/system/mm_stray_fairy.png",
@@ -1813,6 +1921,30 @@
           "setting_strayFairyOtherShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Map Room Surface Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Map Room Surface 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
+        "name": "Map Room Underwater Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Map Room Water 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 8
       },
       {
         "name": "Hallway Bio Babas",
@@ -1848,7 +1980,7 @@
         "item_count": 1
       },
       {
-        "name": "Dexihand Pot",
+        "name": "Dexihand SF Pot",
         "short_name": "Pot by Dexihands",
         "chest_unopened_img": "images/system/mm_greatbay_stray_fairy.png",
         "chest_opened_img": "images/system/mm_stray_fairy.png",
@@ -1861,6 +1993,54 @@
         "item_count": 1
       },
       {
+        "name": "Compass Room Surface Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Compass Room Surface 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Compass Room Underwater Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Compass Room Water 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
+        "name": "Red Pipe Before Wart Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Red Pipe Before Wart 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Before Wart Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Before Wart 01"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 12
+      },
+      {
         "name": "Wart Miniboss - Ice Arrow",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -1870,6 +2050,18 @@
           "{$hintable}"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Wart Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Wart 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 8
       },
       {
         "name": "Boss Key Chest",
@@ -1902,6 +2094,30 @@
         "item_count": 1
       },
       {
+        "name": "Green Valve Room Pot 1",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 1 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "Green Valve Room Pots 2-4",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 1 2"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
         "name": "Waterwheel Room Lower",
         "short_name": "Waterwheel Lower Chest",
         "chest_unopened_img": "images/system/mm_greatbay_stray_fairy.png",
@@ -1928,6 +2144,30 @@
         "item_count": 1
       },
       {
+        "name": "Waterwheel Room Pots 1-6",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 2 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 6
+      },
+      {
+        "name": "Waterwheel Room Pots 7-8",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 2 7"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Seesaw Room Underwater Barrel",
         "short_name": "Seesaw Barrel",
         "chest_unopened_img": "images/system/mm_greatbay_stray_fairy.png",
@@ -1951,6 +2191,30 @@
         "visibility_rules": [
           "setting_strayFairyChestShuffle_ownDungeon"
         ],
+        "item_count": 1
+      },      
+      {
+        "name": "Seesaw Room Upper Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 3 Upper 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Seesaw Room Lower Pot",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Green Pipe 3 Lower"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
         "item_count": 1
       },
       {
@@ -1980,6 +2244,18 @@
         "item_count": 1
       },
       {
+        "name": "Pre-Boss Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Pot Pre-Boss 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 8
+      },
+      {
         "name": "Gyorg",
         "chest_unopened_img": "images/system/heartcontainer.png",
         "chest_opened_img": "images/system/heartcontainer_grey.png",
@@ -1988,6 +2264,30 @@
         ],
         "item_count": 1,
         "hosted_item": "mm_great_bay"
+      },
+      {
+        "name": "Gyorg Surface Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Boss Pot 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Gyorg Underwater Pots",
+        "access_rules": [
+          "$mm|Great Bay Temple Boss Pot Underwater 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       }
     ],
     "map_locations": [
