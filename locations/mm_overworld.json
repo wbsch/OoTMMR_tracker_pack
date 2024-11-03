@@ -5284,6 +5284,56 @@
                 ]
               },
               {
+                "name": "Sakon's Hideoout",
+                "chest_unopened_img": "images/system/chest_brown_closed.png",
+                "chest_opened_img": "images/system/chest_brown_open.png",
+                "sections": [
+                  {
+                    "name": "First Room Pots",
+                    "access_rules": [
+                      "$mm|Sakon Hideout Pot First Room 1"
+                    ],
+                    "visibility_rules": [
+                      "setting_shufflePotsMm_true"
+                    ],
+                    "chest_unopened_img": "images/pot.png",
+                    "chest_opened_img": "images/pot_grey.png",
+                    "item_count": 2
+                  },
+                  {
+                    "name": "Second Room Pots",
+                    "access_rules": [
+                      "$mm|Sakon Hideout Pot Second Room 1"
+                    ],
+                    "visibility_rules": [
+                      "setting_shufflePotsMm_true"
+                    ],
+                    "chest_unopened_img": "images/pot.png",
+                    "chest_opened_img": "images/pot_grey.png",
+                    "item_count": 2
+                  },
+                  {
+                    "name": "Third Room Pot",
+                    "access_rules": [
+                      "$mm|Sakon Hideout Pot Third Room"
+                    ],
+                    "visibility_rules": [
+                      "setting_shufflePotsMm_true"
+                    ],
+                    "chest_unopened_img": "images/pot.png",
+                    "chest_opened_img": "images/pot_grey.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 795,
+                    "y": 315
+                  }
+                ]
+              },
+              {
                 "name": "Ikana Canyon Grotto",
                 "short_name": "Canyon Grotto",
                 "sections": [
@@ -5318,10 +5368,9 @@
                 ]
               },
               {
-                "name": "Secret Shrine Miniboss Gauntlet",
+                "name": "Secret Shrine",
                 "chest_unopened_img": "images/system/chest_brown_closed.png",
                 "chest_opened_img": "images/system/chest_brown_open.png",
-                "short_name": "Boss Gauntlet",
                 "sections": [
                   {
                     "name": "Entrance Grass",
@@ -5336,6 +5385,30 @@
                     ],
                     "item_count": 6
                   },
+                  {
+                    "name": "Entrance Pots",
+                    "access_rules": [
+                      "$mm|Secret Shrine Pot 1"
+                    ],
+                    "visibility_rules": [
+                      "setting_shufflePotsMm_true"
+                    ],
+                    "chest_unopened_img": "images/pot.png",
+                    "chest_opened_img": "images/pot_grey.png",
+                    "item_count": 3
+                  },  
+                  {
+                    "name": "Pool Room Pots",
+                    "access_rules": [
+                      "$mm|Secret Shrine Pot 4"
+                    ],
+                    "visibility_rules": [
+                      "setting_shufflePotsMm_true"
+                    ],
+                    "chest_unopened_img": "images/pot.png",
+                    "chest_opened_img": "images/pot_grey.png",
+                    "item_count": 6
+                  },                 
                   {
                     "name": "Dinolfos",
                     "access_rules": [
