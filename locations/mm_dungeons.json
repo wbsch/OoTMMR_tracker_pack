@@ -2438,6 +2438,18 @@
     "chest_opened_img": "images/system/chest_brown_open.png",
     "sections": [
       {
+        "name": "Entrance Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Entrance 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Shoot the Statue Eye",
         "short_name": "Entrance Eye Switch",
         "chest_unopened_img": "images/system/mm_stonetower_stray_fairy.png",
@@ -2477,6 +2489,18 @@
         "item_count": 6
       },
       {
+        "name": "Lava Room Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Lava Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
         "name": "Kill Armos in Lava Room - Small Key",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2485,6 +2509,18 @@
           "$mm|Stone Tower Temple Under West Garden Lava Chest"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Lava Room Pots After Block",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Lava Room After Block 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Lava Room Behind Sun Block - Map",
@@ -2543,6 +2579,42 @@
         "item_count": 1
       },
       {
+        "name": "Water Room Bridge Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Water Room Bridge 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Water Room Underwater Lower Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Water Room Underwater Lower 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 3
+      },
+      {
+        "name": "Water Room Underwater Upper Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Water Room Underwater Upper 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Underwater Chest",
         "short_name": "Underwater Chest",
         "chest_unopened_img": "images/system/mm_stonetower_stray_fairy.png",
@@ -2554,6 +2626,18 @@
           "setting_strayFairyChestShuffle_ownDungeon"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Mirror Room Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Mirror Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
       },
       {
         "name": "Mirror Room Sun Switch",
@@ -2608,6 +2692,18 @@
         "item_count": 1
       },
       {
+        "name": "Wind Room Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Wind Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
         "name": "Garo Master Miniboss - Light Arrow",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2616,6 +2712,18 @@
           "$mm|Stone Tower Temple Light Arrow"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Pots Before Water Bridge",
+        "access_rules": [
+          "$mm|Stone Tower Temple Pot Before Water Bridge 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 8
       },
       {
         "name": "Pre-Boss Crystal Switch",
