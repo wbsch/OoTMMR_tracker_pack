@@ -2801,7 +2801,43 @@
         "item_count": 1
       },
       {
-        "name": "After Wizrobe Chest",
+        "name": "Pots East Bridge",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Updrafts Bridge 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Pots Updrafts Ledge",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Updrafts Ledge 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
+      },
+      {
+        "name": "Wizzrobe Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Wizzrobe 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 5
+      },
+      {
+        "name": "After Wizzrobe Chest",
         "short_name": "Defeat Wizrobe",
         "chest_unopened_img": "images/system/mm_stonetower_stray_fairy.png",
         "chest_opened_img": "images/system/mm_stray_fairy.png",
@@ -2814,6 +2850,18 @@
         "item_count": 1
       },
       {
+        "name": "Pots After Wizzrobe",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Poe Wizzrobe Side 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Chest on Fire - Small Key",
         "chest_unopened_img": "images/system/chest_unopened_big.png",
         "chest_opened_img": "images/system/chest_open_big.png",
@@ -2824,6 +2872,30 @@
         "item_count": 1
       },
       {
+        "name": "Poe Room Pots Far Side",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Poe Maze Side 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
+        "name": "Flying Pots Center",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Flying Pot Center 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 2
+      },
+      {
         "name": "Inverted Stone Tower Temple Boss Key Chest",
         "chest_unopened_img": "images/system/chest_golden_closed.png",
         "chest_opened_img": "images/system/chest_golden_open.png",
@@ -2832,6 +2904,18 @@
           "$mm|Stone Tower Temple Inverted Boss Key"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Gomess Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Gomess 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Death Armos Switch Chest in Inverted",
@@ -2855,6 +2939,30 @@
           "$mm|Stone Tower Temple Inverted Giant Mask"
         ],
         "item_count": 1
+      },
+      {
+        "name": "Pre-Boss Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Pot Pre-Boss 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 8
+      },
+      {
+        "name": "Flying Pre-Boss Pots",
+        "access_rules": [
+          "$mm|Stone Tower Temple Inverted Flying Pot Pre-Boss 1"
+        ],
+        "visibility_rules": [
+          "setting_shufflePotsMm_true"
+        ],
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
+        "item_count": 4
       },
       {
         "name": "Twinmold",
