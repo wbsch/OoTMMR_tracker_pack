@@ -1971,8 +1971,7 @@
         "access_rules": [
           "$mm|Woodfall Temple Boss Container"
         ],
-        "item_count": 1,
-        "hosted_item": "mm_woodfall"
+        "item_count": 1
       }
     ],
     "map_locations": [
@@ -2442,8 +2441,7 @@
         "access_rules": [
           "$mm|Great Bay Temple Boss HC"
         ],
-        "item_count": 1,
-        "hosted_item": "mm_great_bay"
+        "item_count": 1
       },
       {
         "name": "Gyorg Surface Pots",
@@ -3019,8 +3017,7 @@
         "access_rules": [
           "$mm|Stone Tower Temple Inverted Boss HC"
         ],
-        "item_count": 1,
-        "hosted_item": "mm_stone_tower"
+        "item_count": 1
       }
     ],
     "map_locations": [
@@ -3502,8 +3499,7 @@
         "access_rules": [
           "$mm|Snowhead Temple Boss HC"
         ],
-        "item_count": 1,
-        "hosted_item": "mm_snowhead"
+        "item_count": 1
       }
     ],
     "map_locations": [

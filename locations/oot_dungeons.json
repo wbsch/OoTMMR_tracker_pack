@@ -562,7 +562,6 @@
         "access_rules": [
           "$oot|Deku Tree Boss Container"
         ],
-        "hosted_item": "deku",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -1320,7 +1319,6 @@
         "access_rules": [
           "$oot|Dodongo Cavern Boss Container"
         ],
-        "hosted_item": "dodongo",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -1830,7 +1828,6 @@
         "access_rules": [
           "$oot|Jabu-Jabu Boss Container"
         ],
-        "hosted_item": "jabu",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -2779,7 +2776,6 @@
         "access_rules": [
           "$oot|Forest Temple Boss Container"
         ],
-        "hosted_item": "forest",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -3450,7 +3446,6 @@
         "access_rules": [
           "$oot|Fire Temple Boss Container"
         ],
-        "hosted_item": "fire",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -4110,7 +4105,6 @@
         "access_rules": [
           "$oot|Water Temple Boss HC"
         ],
-        "hosted_item": "water",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -4960,7 +4954,6 @@
         "access_rules": [
           "$oot|Shadow Temple Boss HC"
         ],
-        "hosted_item": "shadow",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
@@ -5863,7 +5856,6 @@
         "access_rules": [
           "$oot|Spirit Temple Boss HC"
         ],
-        "hosted_item": "spirit",
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
         "item_count": 1
