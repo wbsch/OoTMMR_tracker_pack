@@ -278,7 +278,7 @@
                 ],
                 "chest_unopened_img": "images/MM_Grass.png",
                 "chest_opened_img": "images/GrassGreyscale.png",
-                "item_count": 4
+                "item_count": 3
               }
             ],
             "map_locations": [
