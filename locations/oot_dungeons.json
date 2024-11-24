@@ -357,6 +357,19 @@
         "item_count": 1
       },
       {
+        "name": "Grass Room",
+        "short_name": "Compass",
+        "access_rules": [
+          "$ootmq|MQ Deku Tree Grass Compass Room 1"
+        ],
+        "visibility_rules": [
+          "setting_shuffleGrassOot_true,setting_mq_DekuTree_true"
+        ],
+        "chest_unopened_img": "images/MM_Grass.png",
+        "chest_opened_img": "images/GrassGreyscale.png",
+        "item_count": 4
+      },
+      {
         "name": "Basement Lower Grass",
         "short_name": "Basement Lower",
         "access_rules": [
@@ -5325,6 +5338,20 @@
         "access_rules": [
           "$oot|Spirit Temple Silver Gauntlets"
         ],
+        "visibility_rules": [
+          "setting_mq_SpiritTemple_false"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Silver Gauntlets Chest",
+        "short_name": "Right Hand",
+        "access_rules": [
+          "$ootmq|Spirit Temple Silver Gauntlets"
+        ],
+        "visibility_rules": [
+          "setting_mq_SpiritTemple_true"
+        ],
         "item_count": 1
       },
       {
@@ -5356,7 +5383,7 @@
         "name": "Flying Pots Lobby",
         "short_name": "Lobby Flying",
         "access_rules": [
-          "$oot|Spirit Temple Flying Pot Lobby 1"
+          "$oot|Spirit Temple Flying Pot Statue Room 1"
         ],
         "visibility_rules": [
           "setting_shufflePotsOot_true,setting_mq_SpiritTemple_false"
@@ -5747,6 +5774,20 @@
         "short_name": "Left Hand",
         "access_rules": [
           "$oot|Spirit Temple Mirror Shield"
+        ],
+        "visibility_rules": [
+          "setting_mq_SpiritTemple_false"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Mirror Shield Chest",
+        "short_name": "Left Hand",
+        "access_rules": [
+          "$ootmq|Spirit Temple Mirror Shield"
+        ],
+        "visibility_rules": [
+          "setting_mq_SpiritTemple_true"
         ],
         "item_count": 1
       },
