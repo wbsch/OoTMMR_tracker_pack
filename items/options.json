@@ -782,6 +782,31 @@
     ]
   },
   {
+    "name": "Beneath the Well behavior (MM)",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/setting_beneathWell_vanilla.png",
+        "codes": "setting_beneathWell,setting_beneathWell_vanilla",
+        "img_mods": "@disabled",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/setting_beneathWell_remorseless.png",
+        "codes": "setting_beneathWell,setting_beneathWell_remorseless",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/setting_beneathWell_open.png",
+        "codes": "setting_beneathWell,setting_beneathWell_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Kakariko Gate",
     "type": "progressive",
     "allow_disabled": false,
