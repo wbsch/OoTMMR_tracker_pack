@@ -932,10 +932,10 @@
           "$oot|Dodongo Cavern Pot Skull 1"
         ],
         "visibility_rules": [
-          "setting_goldSkulltulaTokens_dungeons,setting_mq_DodongoCavern_false"
+          "setting_shufflePotsOot_true,setting_mq_DodongoCavern_false"
         ],
-        "chest_unopened_img": "images/skulltula.png",
-        "chest_opened_img": "images/skulltula_token.png",
+        "chest_unopened_img": "images/pot.png",
+        "chest_opened_img": "images/pot_grey.png",
         "item_count": 4
       },
       {
