@@ -32,7 +32,13 @@ Green markings indicate that a check is logically reachable. Yellow markings mea
 
 - Chest Game Small Key Shuffle
 - Silver Rupees Shuffle
-- Pot Shuffle
+- Crates Shuffle
+- Barrels Shuffle
+- Hives Shuffle
+- Wonder Items Shuffle
+- Snowball Shuffle
+- Butterflies Shuffle
+- Mask Trade Shuffle
 - Freestanding Rupees Shuffle
 - Freestanding Hearts Shuffle
 - Fishing Pond Fish Shuffle
@@ -47,7 +53,7 @@ Green markings indicate that a check is logically reachable. Yellow markings mea
 ## TODOs:
 
 - [ ] Add Silver Rupees to the item grid (jupiterfire)
-- [ ] Add Map Locations for Pot/Freestanding/FairySpot Shuffle (jupiterfire)
+- [ ] Add Map Locations for non-supported settings (jupiterfire)
 - [ ] Implement flags for cleared/uncleared dungeon states (wbsch)
 - [ ] Adjust Tree Search for ER Options (wbsch)
 

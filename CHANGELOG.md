@@ -1,5 +1,21 @@
 # Releases
 
+## v25.0.1
+
+Logic updated to version v25.0 of the OOTMM Randomizer.
+
+Unlinked Dungeon Rewards and Bosses to improve usability for shuffled Dungeon Rewards anywhere.
+
+New settings:
+
+- Pot Shuffle (OOT + MM)
+- Stray Fairy Reward Count
+
+Bugfixes:
+
+- Some logic changes to avoid problems with unsupported region states and stay rules
+- Fix a bug where some silver rupees were counted twice
+
 ## v24.1.2
 
 New settings:
