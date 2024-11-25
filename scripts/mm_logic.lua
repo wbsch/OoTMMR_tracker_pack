@@ -3972,9 +3972,6 @@ function _mm_logic()
             ["Swordsman School Pot 4"] = function () return has_sword() and after(NIGHT3_AM_12_00) end,
             ["Swordsman School Pot 5"] = function () return has_sword() and after(NIGHT3_AM_12_00) end,
         },
-        ["stay"] = {
-            ["NIGHT3_PM_11_00"] = function () return false end,
-        },
         ["age_change"] = false,
     },
     ["Lottery"] = {
@@ -7091,7 +7088,7 @@ function _mm_logic()
             ["Ikana Valley"] = function () return true end,
             ["Ikana Fairy Fountain"] = function () return true end,
             ["Ikana Spring Water Cave"] = function () return true end,
-            ["Music Box House"] = function () return event('IKANA_CURSE_LIFTED') and (has_explosives() or has_mask_stone()) or is_valley_cleared() end,
+            ["Music Box House"] = function () return event('IKANA_CURSE_LIFTED') and (has_explosives() or has_mask_stone()) end,
             ["Ghost Hut"] = function () return true end,
             ["Beneath The Well Entrance"] = function () return true end,
             ["Ikana Castle Entrance"] = function () return true end,
