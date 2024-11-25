@@ -967,6 +967,15 @@
     ]
   },
   {
+    "name": "Stray Fairy Reward Count",
+    "type": "consumable",
+    "img": "images/setting_strayFairyRewardCount.png",
+    "codes": "setting_strayFairyRewardCount",
+    "disabled_img_mods": "@enabled",
+    "max_quantity": 15,
+    "initial_quantity": 15
+  },
+  {
     "name": "Allow adult link to be swordless",
     "type": "progressive",
     "allow_disabled": false,
